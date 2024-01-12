@@ -79,3 +79,62 @@
 .introduction-card__text-little.views {
   margin-top: 3px;
 }
+
+.about-container {
+    padding-bottom: 6px;
+}
+
+.about-title {
+  color: #AA0060;
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 203px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 101, 147, 0.10);
+  background: linear-gradient(180deg, #02314F 0%, #161616 100%);
+  box-shadow: 0px 0px 4px 0px #006593;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+}
+
+.about-card__text {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #FFF 49.48%, rgba(255, 204, 151, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-card__button {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 78px;
+  height: 19.024px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #A8005F 0%, #6A053F 100%);
+  box-shadow: 0px 0px 5px 4px rgba(138, 8, 82, 0.60);
+  margin-top: 10px;
+  border: none;
+}
