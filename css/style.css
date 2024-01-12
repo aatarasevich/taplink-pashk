@@ -26,7 +26,7 @@
   margin: 0 auto;
 }
 
-.empty {
+.introduction-empty {
     height: 170px;
 }
 
@@ -84,7 +84,7 @@
     padding-bottom: 6px;
 }
 
-.about-title {
+.section-title {
   color: #AA0060;
   text-align: center;
   font-family: Philosopher;
@@ -137,4 +137,34 @@
   box-shadow: 0px 0px 5px 4px rgba(138, 8, 82, 0.60);
   margin-top: 10px;
   border: none;
+}
+
+.section-title.brands-title {
+  margin-bottom: 5px;
+}
+
+.brands-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 144px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #000116 0%, rgba(255, 255, 255, 0.52) 46.21%, #000116 100%);
+}
+
+.brands-logos__image {
+  max-width: 229px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.brands-logos__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-empty {
+    height: 216px;
 }
